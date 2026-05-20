@@ -22,3 +22,14 @@ num → digit {digit}
 * 3 + 5 
 * x = 5
 * y = 10
+## Диаграмма лексера
+![Результат работы 1](https://github.com/anna-1225/lab_666/blob/main/Resources/graf6.png)
+## Тестовые примеры работы лексера и парсера
+### Строка x = 10 (корректная строка)
+![Результат работы 1](https://github.com/anna-1225/lab_666/blob/main/Resources/new1.png)
+### Строка x = 10@ (лексическая ошибка)
+![Результат работы 2](https://github.com/anna-1225/lab_666/blob/main/Resources/new2.png)
+### Строка 1 + 1 + (синтаксическая ошибка)
+![Результат работы 3](https://github.com/anna-1225/lab_666/blob/main/Resources/new3.png)
+### Строка x = 10 + b (семантическая ошибка)
+![Результат работы 4](https://github.com/anna-1225/lab_666/blob/main/Resources/new4.png)
