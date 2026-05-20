@@ -1,0 +1,11 @@
+C:\Users\vanya\source\repos\lab_666\obj\Debug\lab_666.csproj.AssemblyReference.cache
+C:\Users\vanya\source\repos\lab_666\obj\Debug\lab_666.Properties.Resources.resources
+C:\Users\vanya\source\repos\lab_666\obj\Debug\lab_666.csproj.GenerateResource.cache
+C:\Users\vanya\source\repos\lab_666\obj\Debug\lab_666.csproj.CoreCompileInputs.cache
+C:\Users\vanya\source\repos\lab_666\bin\Debug\lab_666.exe.config
+C:\Users\vanya\source\repos\lab_666\bin\Debug\lab_666.exe
+C:\Users\vanya\source\repos\lab_666\bin\Debug\lab_666.pdb
+C:\Users\vanya\source\repos\lab_666\obj\Debug\lab_666.exe
+C:\Users\vanya\source\repos\lab_666\obj\Debug\lab_666.pdb
+C:\Users\vanya\source\repos\lab_666\obj\Debug\lab_666.exe.config
+C:\Users\vanya\source\repos\lab_666\obj\Debug\lab_666.Form1.resources

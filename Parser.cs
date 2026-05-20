@@ -248,22 +248,19 @@ namespace lab_666
                 else
                 {
                     AddError($"Ожидалась ')', найдено: {Current.Type}");
-                    // Не пропускаем токен, просто возвращаем выражение
                     return expr;
                 }
             }
             else if (Current.Type == ")")
             {
-                // ЛИШНЯЯ ЗАКРЫВАЮЩАЯ СКОБКА - ОБРАБОТКА
                 var token = Current;
                 AddError($"Лишняя закрывающая скобка");
-                Match(")"); // Пропускаем лишнюю скобку
-                return ParseF(); // Пробуем разобрать следующий токен
+                Match(")");
+                return ParseF();
             }
 
             AddError($"Ожидалось число, идентификатор или '(', найдено: {Current.Type}");
 
-            // Пропускаем проблемный токен
             if (Current != null)
             {
                 _position++;
